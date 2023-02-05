@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: '2651-font', sans-serif;
+    margin : 0;
+}
+
+p{font-size: small;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(48, 119, 180);
+}
+
+header .logo{
+    font-family:'SF Grandezza Heavy Oblique';
+    font-size: large;
+    padding: 20px 30px;
+    font-weight: bolder;
+    color: rgb(218, 218, 218);
+    margin: 0;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    color: black;
+    background-color: white;
+}
+
+@media (min-width:720px){
+    header{
+
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px; ;
+    }
+}
