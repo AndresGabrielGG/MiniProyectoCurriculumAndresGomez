@@ -1,3 +1,4 @@
+
 #exp h1{
     color: aliceblue;
     justify-content: center;
@@ -17,12 +18,14 @@
     justify-content: center;
     text-align: center;
 }
-
-#exp a{
-    margin: auto;
-    display: block;
-    justify-content: center;
+#contenedor{
     text-align: center;
+    margin: 0;
+    background-color: rgb(180, 183, 199);
+}
+#exp a{
+    display:inline-flex;
+    padding: 50 120;
     text-decoration: none;
     margin-bottom: 20px;
 }
@@ -31,10 +34,7 @@
     color: rgb(4, 4, 73);
 }
 
-#exp{
-    margin: 0;
-    background-color: rgb(180, 183, 199);
-}
+
 
 #img{
     width: 85%;
@@ -43,7 +43,7 @@
 }
 #exp img{
     justify-content: center;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     margin: auto;
     width: 100%;
