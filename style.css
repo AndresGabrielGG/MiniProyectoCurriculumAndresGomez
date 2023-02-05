@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 html{
@@ -36,10 +37,11 @@ header .container{
     align-items: center;
 }
 header nav{
-    display: flex;
+    display: block;
     flex-direction:column;
     text-align: center;
     padding-bottom: 25px;
+    
 }
 
 header a{
@@ -47,6 +49,7 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    
 }
 
 header a:hover{
@@ -54,9 +57,29 @@ header a:hover{
     background-color: white;
 }
 
+body{
+    display: block;
+
+}
+
+.containers{
+
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 10px 60px;
+
+ 
+}
+
+#imgs{
+    height: 45vh;
+    box-shadow: 25px 25px 8px #444;
+    display: block;
+}
 @media (min-width:720px){
     header{
-
         position: fixed;
         width: 100%;
     }
@@ -65,9 +88,5 @@ header a:hover{
         justify-content: space-between;
     }
 
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px; ;
-    }
+
 }
