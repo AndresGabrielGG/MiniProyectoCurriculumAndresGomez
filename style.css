@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: '2651-font', sans-serif;
+    margin : 0;
+}
+
+p{font-size: small;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(48, 119, 180);
+    color: aliceblue;
+}
+
+header .logo{
+    font-size: medium;
+    padding: 25px 30px;
+    font-weight: bolder;
+    color: antiquewhite;
+    margin: 0;
+}
