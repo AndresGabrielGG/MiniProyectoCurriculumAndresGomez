@@ -22,6 +22,7 @@
     text-align: center;
     margin: 0;
     background-color: rgb(180, 183, 199);
+    padding: 30px auto;
 }
 #exp a{
     display:inline-flex;
@@ -50,4 +51,27 @@
     height: auto;
     align-self: center;
 
+}
+
+@media (min-width:720px){
+    h1{
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+    p{
+        width: 700px;
+        font-size: large;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+    .contenedor{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
