@@ -21,6 +21,7 @@ p{font-size: small;}
 
 header{
     background-color: rgb(48, 119, 180);
+    
 }
 
 header .logo{
@@ -63,12 +64,11 @@ body{
 }
 
 .containers{
-
     position:fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin: 10px 60px;
+    margin: auto;
 
  
 }
@@ -76,17 +76,22 @@ body{
 #imgs{
     height: 45vh;
     box-shadow: 25px 25px 8px #444;
-    display: block;
+    display: inline-block;
 }
 @media (min-width:720px){
     header{
         position: fixed;
         width: 100%;
+
     }
     header .container{
         flex-direction: row;
         justify-content: space-between;
     }
-
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px; ;
+    }
 
 }
