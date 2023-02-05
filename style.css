@@ -64,7 +64,7 @@ body{
 }
 
 .containers{
-    position:fixed;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -78,6 +78,66 @@ body{
     box-shadow: 25px 25px 8px #444;
     display: inline-block;
 }
+
+#exp{
+    padding-top: 50px;
+ 
+}
+#exp h1{
+    margin: auto;
+    color: aliceblue;
+    justify-content: center;
+    display: block;
+    background-color: rgb(28, 28, 161);
+    padding: 10px 0px;
+}
+
+#exp h2{
+    justify-content: center;
+    display: flex;
+    color: rgb(28, 28, 161);
+}
+
+#exp p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#contenedor{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(180, 183, 199);
+    padding: 30px auto;
+}
+#exp a{
+    display:inline-flex;
+    padding: 50 120;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#exp a:hover{
+    color: rgb(4, 4, 73);
+}
+
+
+
+#img{
+    width: 85%;
+    max-width: 750px;
+    margin: auto;
+}
+#exp img{
+    justify-content: center;
+    display: flexbox;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    align-self: center;
+
+}
+
 @media (min-width:720px){
     header{
         position: fixed;
@@ -93,5 +153,24 @@ body{
         padding-bottom: 0;
         padding-right: 20px; ;
     }
+    h1{
+        font-size: 3em;
+    }
 
+    h2{
+        font-size: 2.5em;
+    }
+    p{
+        width: 700px;
+        font-size: large;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+    .contenedor{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
