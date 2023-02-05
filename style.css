@@ -1,0 +1,21 @@
+
+#cont {
+    width: 100%;
+    background-color: #ddd; 
+
+  }
+  
+  #text1,#text2,#text3,#text4,#text5 {
+    text-align: right;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+#text1 {width: 90%; background-color: #04346b;} 
+#text2{width: 70%; background-color: #1b5381;} 
+#text3{width: 50%; background-color: #356dc0;} 
+#text4 {width: 40%; background-color: #6887ec;} 
+#text5 {width: 30%; background-color: #9eb2f5;} 
+
+  
